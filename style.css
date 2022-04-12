@@ -5,8 +5,21 @@
 	font-family: 'Outfit', sans-serif;
 }
 
-.container{
+body{
 	background-color: hsl(213, 43%, 86%);
+}
+
+.container{
+	background-color:  hsl(0, 0%, 100%);
+	text-align: center;
+	border-radius: 15px;
+	width: 375px;
+}
+
+.container img{
+	width: 330px;
+	border-radius: 10px;
+	margin: 20px;
 }
 
 .qr-code-card{
@@ -19,12 +32,16 @@
 }
 
 
-h1{
+.title{
 	font-weight: 700;
 	color: hsl(218, 44%, 22%);
+	margin: 0px 35px;
 }
 
-p{
+.text{
 	font-size: 15px;
 	color: hsl(220, 15%, 55%);
+	margin-right: 40px;
+	margin-left: 40px;
+	padding-bottom: 50px;
 }
